@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2023 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">MBA: Product Management (STEM)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Madison, WI</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Product Strategy & Vision, Data-Driven Decision Making, Stakeholder & Team Collaboration, Customer-Centric Thinking
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2019 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Product Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">Maruti Suzuki, India</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Product Development & Launch, User Research & Stakeholder Collaboration, Cloud & Automation Expertise
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2018 - 2019"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Project Manager (Operations)</h3>
+            <h4 className="vertical-timeline-element-subtitle">Gurugram, India</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            Supply Chain Optimization, Process Improvement & Standardization, Cost Reduction & Negotiation
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2014 - 2018"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Bachelor of Technology</h3>
+            <h4 className="vertical-timeline-element-subtitle">New Delhi, India</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Fundamentals of Programming, Information Technology, Robotics Engineering
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

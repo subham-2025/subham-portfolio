@@ -14,29 +14,31 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://drive.google.com/file/d/1IhvUk0FclTadMvpUuvtmuUh6v-QGGYPl/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1IhvUk0FclTadMvpUuvtmuUh6v-QGGYPl/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Google Capstone Project</h2></a>
+                <p>Developed a system for real-time autonomous vehicle routing, featuring a fleet monitoring dashboard, adaptive route optimization logic, and a user-friendly ride booking and tracking interface.
+                </p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://drive.google.com/file/d/110pfSYonkljymxYW9llHZslNplXIzDlr/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/110pfSYonkljymxYW9llHZslNplXIzDlr/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Managing Oracle Work & Asset Cloud Services</h2></a>
+                <p>Launched 4 cloud-native features on WACS, boosting user engagement by 5%, optimizing asset inventory handling (-10%), streamlining onboarding (-15%), and reducing unplanned downtime (-12%) through AI-driven risk evaluation.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://drive.google.com/file/d/1FMAoZsD5W0aASt76osG2BJ44txhg1C7d/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1FMAoZsD5W0aASt76osG2BJ44txhg1C7d/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Mitigation of vehicle noise</h2></a>
+                <p>Developed predictive models for vehicle noise simulation, securing a patent and generating $2.6M in royalties. Leveraged Azure Data Factory for data ingestion and Azure Synapse Analytics for large-scale simulations.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://drive.google.com/file/d/1baFN7gRF9UlRMJvmVCp3OS9OPxAiFenu/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1baFN7gRF9UlRMJvmVCp3OS9OPxAiFenu/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Reducing Ambulance delay casualties</h2></a>
+                <p>Reduced ambulance delay casualties by 8% by leading the development and launch of an Azure IoT-based vehicle-integrated SOS alerting product. Conducted interviews with emergency responders to define product requirements.
+                </p>
             </div>
-            <div className="project">
+            {/* <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
                 <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
@@ -65,7 +67,7 @@ function Project() {
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
                 <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+            </div> */}
         </div>
     </div>
     );

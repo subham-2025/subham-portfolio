@@ -1,44 +1,42 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faProductHunt} from '@fortawesome/free-brands-svg-icons';
+import { faChartLine, faHandshake} from "@fortawesome/free-solid-svg-icons";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Agile",
+    "Scrum",
+    "JIRA",
+    "Confluence",
+    "User Research",
+    "Competitive Analysis",
+    "Go-to-Market Strategy",
+    "Wireframing",
+    "Miro",
+    "Figma",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "A/B Testing",
+    "Google Analytics",
+    "MS Excel",
+    "Tableau",
+    "Cohort Analysis",
+    "KPI Tracking",
+    "Funnel Optimization",
+    "Mixpanel",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Roadmap Planning",
+    "Sprint Planning",
+    "Product Backlog Management",
+    "Feature Prioritization",
+    "Stakeholder Communication",
+    "Product Requirement Docs",
 ];
 
 function Expertise() {
@@ -48,9 +46,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faProductHunt} size="3x"/>
+                    <h3>Product Strategy & Roadmapping</h3>
+                    <p>I specialize in defining product vision, strategy, and roadmaps to align business objectives with user needs. I prioritize features using data-driven insights and ensure successful execution through agile methodologies.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +58,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faChartLine} size="3x"/>
+                    <h3>Data-Driven Decision Making & Analytics</h3>
+                    <p>I leverage data to drive product decisions by analyzing user behavior, market trends, and key metrics. I collaborate with cross-functional teams to optimize product performance and improve retention.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +70,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faHandshake} size="3x"/>
+                    <h3>Product Execution & Collaboration</h3>
+                    <p>I excel in leading cross-functional teams and managing communication between engineering, design, and business teams to deliver impactful products. I drive execution through sprint planning, user stories, and clear documentation.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
