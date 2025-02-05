@@ -7,10 +7,10 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a href="https://github.com/Rohit-gi" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/rohit-k96/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://github.com/subham-2025" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+        <a href="https://www.linkedin.com/in/subham-sharma1/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>A portfolio built by <a href="https://github.com/Rohit-gi" target="_blank" rel="noreferrer">Rohit</a> with 💜</p>
+      <p>A portfolio built by <a href="https://www.linkedin.com/in/rohit-k96/" target="_blank" rel="noreferrer">Rohit</a></p>
     </footer>
   );
 }

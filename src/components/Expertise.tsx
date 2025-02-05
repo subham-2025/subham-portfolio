@@ -47,8 +47,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faProductHunt} size="3x"/>
-                    <h3>Product Strategy & Roadmapping</h3>
-                    <p>I specialize in defining product vision, strategy, and roadmaps to align business objectives with user needs. I prioritize features using data-driven insights and ensure successful execution through agile methodologies.</p>
+                    <h3>Customer-focused Product Manager</h3>
+                    <p>I have 5+ years of experience driving end-to-end product development across North America and APAC. Proven success in leveraging cloud and AI to build scalable, data-driven solutions. Skilled in AWS, Azure, OCI, system design, and predictive analytics.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (

@@ -1,10 +1,10 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
+// import mock01 from '../assets/images/mock01.png';
+// import mock02 from '../assets/images/mock02.png';
+// import mock03 from '../assets/images/mock03.png';
+// import mock04 from '../assets/images/mock04.png';
+// import mock05 from '../assets/images/mock05.png';
+// import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
@@ -17,24 +17,24 @@ function Project() {
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://drive.google.com/file/d/1IhvUk0FclTadMvpUuvtmuUh6v-QGGYPl/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://drive.google.com/file/d/1IhvUk0FclTadMvpUuvtmuUh6v-QGGYPl/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Google Capstone Project</h2></a>
+                <a href="https://drive.google.com/file/d/1HgsBDzBvjqacehk9dMZ-rvlMjrI1rMsR/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1HgsBDzBvjqacehk9dMZ-rvlMjrI1rMsR/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Google Capstone Project</h2></a>
                 <p>Developed a system for real-time autonomous vehicle routing, featuring a fleet monitoring dashboard, adaptive route optimization logic, and a user-friendly ride booking and tracking interface.
                 </p>
             </div>
             <div className="project">
-                <a href="https://drive.google.com/file/d/110pfSYonkljymxYW9llHZslNplXIzDlr/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://drive.google.com/file/d/110pfSYonkljymxYW9llHZslNplXIzDlr/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Managing Oracle Work & Asset Cloud Services</h2></a>
+                <a href="https://drive.google.com/file/d/1zQ4n9uRtSa92q0WlGFuDdx42tIySubl8/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1zQ4n9uRtSa92q0WlGFuDdx42tIySubl8/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Managing Oracle Work & Asset Cloud Services</h2></a>
                 <p>Launched 4 cloud-native features on WACS, boosting user engagement by 5%, optimizing asset inventory handling (-10%), streamlining onboarding (-15%), and reducing unplanned downtime (-12%) through AI-driven risk evaluation.</p>
             </div>
             <div className="project">
-                <a href="https://drive.google.com/file/d/1FMAoZsD5W0aASt76osG2BJ44txhg1C7d/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://drive.google.com/file/d/1FMAoZsD5W0aASt76osG2BJ44txhg1C7d/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Mitigation of vehicle noise</h2></a>
+                <a href="https://drive.google.com/file/d/110aZGIzSOQxH_KDaz998Y5r1yUkLMdzl/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/110aZGIzSOQxH_KDaz998Y5r1yUkLMdzl/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Mitigation of vehicle noise</h2></a>
                 <p>Developed predictive models for vehicle noise simulation, securing a patent and generating $2.6M in royalties. Leveraged Azure Data Factory for data ingestion and Azure Synapse Analytics for large-scale simulations.</p>
             </div>
             <div className="project">
-                <a href="https://drive.google.com/file/d/1baFN7gRF9UlRMJvmVCp3OS9OPxAiFenu/view?usp=sharing" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://drive.google.com/file/d/1baFN7gRF9UlRMJvmVCp3OS9OPxAiFenu/view?usp=sharing" target="_blank" rel="noreferrer"><h2>Reducing Ambulance delay casualties</h2></a>
+                <a href="https://drive.google.com/file/d/1dtQR-sFAFl3F2V8PkOdqMj5_fqben5l0/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1dtQR-sFAFl3F2V8PkOdqMj5_fqben5l0/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Reducing Ambulance delay casualties</h2></a>
                 <p>Reduced ambulance delay casualties by 8% by leading the development and launch of an Azure IoT-based vehicle-integrated SOS alerting product. Conducted interviews with emergency responders to define product requirements.
                 </p>
             </div>

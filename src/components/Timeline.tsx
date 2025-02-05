@@ -12,6 +12,35 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Sep - Dec 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Google: Product Manager(Capstone Project) </h3>
+            <h4 className="vertical-timeline-element-subtitle"> Madison, WI</h4>
+            <p>
+            Product Development & System Design, User Experience & Interface Design, Operational Analytics & Fleet Monitoring
+            </p>
+          </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="May - Aug 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Oracle: Product Manager Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Redwood City, CA</h4>
+            <p>
+            Product Ideation & Roadmap Execution, Stakeholder & User Research, AI & Predictive Analytics for Risk Mitigation
+            </p>
+          </VerticalTimelineElement>
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
@@ -56,7 +85,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Bachelor of Technology</h3>
+            <h3 className="vertical-timeline-element-title">BTech: Mechanical Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">New Delhi, India</h4>
             <p>
               Fundamentals of Programming, Information Technology, Robotics Engineering
