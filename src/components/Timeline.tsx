@@ -20,7 +20,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Google: Product Manager(Capstone Project) </h3>
+            <h3 className="vertical-timeline-element-title">Google: Product Manager (Capstone Project) </h3>
             <h4 className="vertical-timeline-element-subtitle"> Madison, WI</h4>
             <p>
             Product Development & System Design, User Experience & Interface Design, Operational Analytics & Fleet Monitoring
