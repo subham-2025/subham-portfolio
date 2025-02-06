@@ -74,7 +74,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Project Manager (Operations)</h3>
-            <h4 className="vertical-timeline-element-subtitle">Gurugram, India</h4>
+            <h4 className="vertical-timeline-element-subtitle">Maruti Suzuki, India</h4>
             <p>
             Supply Chain Optimization, Process Improvement & Standardization, Cost Reduction & Negotiation
             </p>
