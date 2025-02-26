@@ -23,9 +23,9 @@ function Project() {
                 </p>
             </div>
             <div className="project">
-                <a href="https://drive.google.com/file/d/1zQ4n9uRtSa92q0WlGFuDdx42tIySubl8/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://drive.google.com/file/d/1zQ4n9uRtSa92q0WlGFuDdx42tIySubl8/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Managing Oracle Work & Asset Cloud Services</h2></a>
-                <p>Launched 4 cloud-native features on WACS, boosting user engagement by 5%, optimizing asset inventory handling (-10%), streamlining onboarding (-15%), and reducing unplanned downtime (-12%) through AI-driven risk evaluation.</p>
+                <a href="https://drive.google.com/file/d/1vhviTW78UrorRYrhkqW8mo-qblvdJFci/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://drive.google.com/file/d/1vhviTW78UrorRYrhkqW8mo-qblvdJFci/view?usp=drive_link" target="_blank" rel="noreferrer"><h2>Driving Compute Enhancements in OCI</h2></a>
+                <p>Launched optimizations in OCI’s IaaS ecosystem, increasing user engagement, improving VM performance, reducing unplanned downtime with AI-driven anomaly detection, and accelerating compute provisioning through automation.</p>
             </div>
             <div className="project">
                 <a href="https://drive.google.com/file/d/110aZGIzSOQxH_KDaz998Y5r1yUkLMdzl/view?usp=drive_link" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
